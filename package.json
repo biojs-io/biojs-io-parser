@@ -4,7 +4,8 @@
   "description": "A generic BioJS parser",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha -u qunit -C"
+    "test-m": "mocha -u qunit -C",
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,10 +24,24 @@
   "browser": {
     "request": "xhr"
   },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6..latest",
+      "ipad/6..latest",
+      "android-browser/latest"
+    ]
+  },
   "devDependencies": {
     "chai": "^2.1.0",
     "mocha": "^2.1.0",
-    "nock": "^0.59.1"
+    "nock": "^0.59.1",
+    "tape": "^3.5.0"
   },
   "dependencies": {
     "request": "^2.53.0",
