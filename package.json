@@ -1,0 +1,36 @@
+{
+  "name": "biojs-io-parser",
+  "version": "1.0.0",
+  "description": "A generic BioJS parser",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -u qunit -C"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biojs/biojs-io-parser"
+  },
+  "keywords": [
+    "parser",
+    "generic"
+  ],
+  "author": "greenify <greenify@notsharingmy.info> (https://github.com/greenify)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biojs/biojs-io-parser/issues"
+  },
+  "homepage": "https://github.com/biojs/biojs-io-parser",
+  "browser": {
+    "request": "xhr"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "mocha": "^2.1.0",
+    "nock": "^0.59.1"
+  },
+  "dependencies": {
+    "request": "^2.53.0",
+    "vow": "^0.4.8",
+    "xhr": "^2.0.1"
+  }
+}
