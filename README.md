@@ -1,7 +1,13 @@
 biojs-io-parser
 ===============
 
-A small, generic parser module.
+[![Build Status](https://travis-ci.org/biojs/biojs-io-parser.svg?branch=master)](https://travis-ci.org/biojs/biojs-io-parser)
+[![NPM version](http://img.shields.io/npm/v/biojs-io-parser.svg)](https://www.npmjs.org/package/biojs-io-parser)
+[![NPM downloads](http://img.shields.io/npm/dm/biojs-io-parser.svg)](https://www.npmjs.org/package/biojs-io-parser)
+
+
+> A small, generic parser module.
+
 It expects that you provide at least a method `parse` (see below for more details).
 
 
