@@ -10,9 +10,6 @@ biojs-io-parser
 
 It expects that you provide at least a method `parse` (see below for more details).
 
-[![browser support](https://ci.testling.com/biojs/biojs-io-parser.png)
-](https://ci.testling.com/biojs/biojs-io-parser)
-
 Provided methods
 ---------------
 
