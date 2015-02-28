@@ -14,7 +14,7 @@
     "parser",
     "generic"
   ],
-  "author": "greenify <greenify@notsharingmy.info> (https://github.com/greenify)",
+  "author": "BioJS <biojs@googlegroups.com> (http://biojs.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/biojs/biojs-io-parser/issues"
