@@ -25,7 +25,9 @@ parser.read("http://your-url", function(err, model) {
 If callback is undefined, `read` returns a promise.
 
 ```
-parser.read("http://your-url").then(function(model) {
+var p = parser.read("http://your-url");
+//...
+p.then(function(model) {
 	// model is the parsed url
 }, function(err){
 	console.error("err happened during downloading", err);
