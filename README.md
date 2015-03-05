@@ -76,6 +76,7 @@ var throughParserAlt = {
     return data;
   }
 };
+Parser.mixin(throughParserAlt);
 ``` 
 
 
