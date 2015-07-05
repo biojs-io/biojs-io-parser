@@ -18,5 +18,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "vow": "~0.4.10",
+    "xhr": "~1.0.3"
+  }
 }
