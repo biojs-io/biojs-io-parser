@@ -60,8 +60,8 @@ process.umask = function() { return 0; };
 
 },{}],2:[function(require,module,exports){
 var bio = window.bio || {};
-var io = bio.io || {};
-io.Parser = require('./lib/index.js');
+bio.io = bio.io || {};
+bio.io.Parser = require('./lib/index.js');
 window.bio = bio;
 
 },{"./lib/index.js":3}],3:[function(require,module,exports){
