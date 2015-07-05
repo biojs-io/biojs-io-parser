@@ -1,0 +1,22 @@
+{
+  "name": "biojs-io-parser",
+  "version": "1.0.0",
+  "homepage": "https://github.com/biojs/biojs-io-parser",
+  "authors": [
+    "Sebastian Wilzbach <seb@wilzba.ch>"
+  ],
+  "description": "A generic BioJS parser",
+  "main": "lib/index.js",
+  "keywords": [
+    "biojs",
+    "parser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
